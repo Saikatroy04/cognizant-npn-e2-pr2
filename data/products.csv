@@ -1,0 +1,52 @@
+product_id,product_name,category,unit,standard_price,weight_kg,load_type,criticality
+PROD001,Temperature Sensor,Mechanical,Piece,18500,16.32,Temperature-Controlled,Normal
+PROD002,Industrial Motor,Packaging,Piece,5200,7.1,General,Normal
+PROD003,Steel Bracket,Packaging,Piece,850,7.09,Heavy,Medium
+PROD004,Pressure Sensor,Electronics,Piece,180,9.62,Fragile,Medium
+PROD005,Proximity Sensor,Electrical,Piece,650,20.22,Temperature-Controlled,High
+PROD006,Control Relay,Electronics,Piece,1200,2.15,Fragile,High
+PROD007,Power Cable,Electrical,Piece,850,14.52,General,Normal
+PROD008,Bearing Assembly,Mechanical,Piece,650,24.63,Heavy,Normal
+PROD009,Packaging Box,Packaging,Piece,650,11.44,Fragile,Normal
+PROD010,Industrial Connector,Metal,Piece,850,5.4,Fragile,High
+PROD011,PLC Module,Electronics,Piece,5200,15.95,Heavy,Normal
+PROD012,Cooling Fan,Packaging,Piece,1200,6.89,Heavy,High
+PROD013,Safety Switch,Metal,Piece,120,5.88,General,Medium
+PROD014,Aluminium Plate,Packaging,Piece,650,1.84,Fragile,Normal
+PROD015,Copper Wire,Packaging,Piece,1200,22.14,Temperature-Controlled,Normal
+PROD016,Hydraulic Valve,Metal,Piece,250,6.32,Fragile,High
+PROD017,Digital Thermostat,Electrical,Piece,1200,22.47,Temperature-Controlled,Medium
+PROD018,Circuit Breaker,Mechanical,Piece,250,12.84,General,Normal
+PROD019,Gear Assembly,Electronics,Piece,250,15.76,Temperature-Controlled,High
+PROD020,Protective Cover,Electronics,Piece,1200,9.66,Temperature-Controlled,High
+PROD021,Vibration Sensor,Metal,Piece,3500,21.55,General,High
+PROD022,Flow Meter,Electronics,Piece,8500,22.14,Fragile,High
+PROD023,Terminal Block,Metal,Piece,180,7.48,Heavy,Medium
+PROD024,Fuse Assembly,Electronics,Piece,18500,21.92,Fragile,High
+PROD025,Rubber Seal,Mechanical,Piece,3500,22.83,Fragile,High
+PROD026,Industrial Component 01,Electrical,Piece,5200,5.13,Fragile,Normal
+PROD027,Industrial Component 02,Electrical,Piece,3500,22.98,Fragile,Medium
+PROD028,Industrial Component 03,Electronics,Piece,180,23.24,Fragile,Normal
+PROD029,Industrial Component 04,Electronics,Piece,420,21.97,General,Normal
+PROD030,Industrial Component 05,Packaging,Piece,180,24.45,Heavy,Normal
+PROD031,Industrial Component 06,Packaging,Piece,3500,4.3,Temperature-Controlled,Normal
+PROD032,Industrial Component 07,Electrical,Piece,18500,17.31,Fragile,Medium
+PROD033,Industrial Component 08,Metal,Piece,1800,22.51,Temperature-Controlled,Normal
+PROD034,Industrial Component 09,Mechanical,Piece,420,1.79,General,High
+PROD035,Industrial Component 10,Electrical,Piece,420,14.79,General,Normal
+PROD036,Industrial Component 11,Electronics,Piece,420,1.87,General,Medium
+PROD037,Industrial Component 12,Electronics,Piece,3500,6.1,Temperature-Controlled,Normal
+PROD038,Industrial Component 13,Electrical,Piece,250,18.14,Temperature-Controlled,Normal
+PROD039,Industrial Component 14,Packaging,Piece,1200,4.92,General,High
+PROD040,Industrial Component 15,Packaging,Piece,850,10.7,Temperature-Controlled,High
+PROD041,Industrial Component 16,Electronics,Piece,8500,16.41,General,Normal
+PROD042,Industrial Component 17,Packaging,Piece,18500,8.61,General,Normal
+PROD043,Industrial Component 18,Mechanical,Piece,420,13.5,Heavy,Medium
+PROD044,Industrial Component 19,Mechanical,Piece,650,11.67,General,Medium
+PROD045,Industrial Component 20,Electrical,Piece,180,1.45,General,Normal
+PROD046,Industrial Component 21,Mechanical,Piece,250,10.28,Temperature-Controlled,Normal
+PROD047,Industrial Component 22,Packaging,Piece,120,4.28,General,Medium
+PROD048,Industrial Component 23,Metal,Piece,1800,7.27,Temperature-Controlled,Normal
+PROD049,Industrial Component 24,Mechanical,Piece,650,5.6,General,High
+PROD050,Industrial Component 25,Electrical,Piece,120,18.75,General,Normal
+PROD051,GPS Tracking Device,Telematics,Piece,3200,1.2,General,High

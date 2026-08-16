@@ -1,0 +1,18 @@
+alert_id,alert_type,reference_id,severity,message,detected_at,recommended_action,status
+ALT-0001,Invoice Anomaly,INV00012,High,"Invoice price mismatch; difference ₹4,200.00",2026-08-08 08:00,Hold payment and review invoice,Open
+ALT-0002,Truck Delay,TR0017,High,TR0017 delayed by 74 minutes,2026-08-05 13:29,Review dock schedule,Open
+ALT-0003,Quantity Mismatch,GR00023,High,Expected 50 units but received 40,2026-08-11 08:00,Verify goods receipt,Open
+ALT-0004,Invoice Anomaly,INV00031,High,"Invoice price mismatch; difference ₹45,000.00",2026-08-07 08:00,Hold payment and review invoice,Open
+ALT-0005,Truck Delay,TR0042,High,TR0042 delayed by 36 minutes,2026-08-17 17:06,Review dock schedule,Open
+ALT-0006,Quantity Mismatch,GR00057,High,Expected 750 units but received 745,2026-08-17 08:00,Verify goods receipt,Open
+ALT-0007,Invoice Anomaly,INV00064,High,"Invoice price mismatch; difference ₹54,000.00",2026-08-19 08:00,Hold payment and review invoice,Open
+ALT-0008,Truck Delay,TR0068,High,TR0068 delayed by 58 minutes,2026-08-11 10:43,Review dock schedule,Open
+ALT-0009,Invoice Anomaly,INV00078,High,"Invoice price mismatch; difference ₹13,500.00",2026-08-12 08:00,Hold payment and review invoice,Open
+ALT-0010,Quantity Mismatch,GR00083,High,Expected 500 units but received 480,2026-08-13 08:00,Verify goods receipt,Open
+ALT-0011,Truck Delay,TR0091,High,TR0091 delayed by 73 minutes,2026-08-22 13:28,Review dock schedule,Open
+ALT-0012,Invoice Anomaly,INV00096,High,"Invoice price mismatch; difference ₹2,400.00",2026-08-20 08:00,Hold payment and review invoice,Open
+ALT-0013,Dock Unavailable,D01,Medium,Dock D01 unavailable; reassignment required,2026-08-02 08:00,Select next compatible dock,Open
+ALT-0014,Dock Unavailable,D02,Medium,Dock D02 unavailable; reassignment required,2026-08-03 08:00,Select next compatible dock,Open
+ALT-0015,Dock Unavailable,D03,Medium,Dock D03 unavailable; reassignment required,2026-08-04 08:00,Select next compatible dock,Open
+ALT-0016,Dock Unavailable,D04,Medium,Dock D04 unavailable; reassignment required,2026-08-05 08:00,Select next compatible dock,Open
+ALT-0017,Dock Unavailable,D05,Medium,Dock D05 unavailable; reassignment required,2026-08-06 08:00,Select next compatible dock,Open

@@ -1,0 +1,11 @@
+dock_id,dock_name,status,supported_load_type,current_trailer,next_available_time,priority_level
+D01,Dock 01,Available,General,,Available,Low
+D02,Dock 02,Occupied,Heavy,,Available,Medium
+D03,Dock 03,Maintenance,Fragile,,Maintenance,Low
+D04,Dock 04,Available,General,,Available,Medium
+D05,Dock 05,Available,Temperature-Controlled,,Available,Low
+D06,Dock 06,Available,Temperature-Controlled,,Available,Medium
+D07,Dock 07,Occupied,Fragile,,Available,Medium
+D08,Dock 08,Available,General,,Available,Medium
+D09,Dock 09,Available,Fragile,,Available,High
+D10,Dock 10,Available,Heavy,,Available,Low

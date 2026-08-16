@@ -1,0 +1,109 @@
+=== README ===
+Cognizant NPN SCM Hackathon — E2 + PR2 Dummy Data
+========================================================
+
+These CSVs are synthetic demo data designed for the proposed E2 + PR2 prototype.
+
+Main flow:
+Requisition -> Purchase Order -> Shipment -> Trailer -> Yard -> Dock Assignment
+-> Goods Receipt -> Invoice -> 3-Way Match -> Payment/Alert
+
+Key anomaly cases:
+- Truck delays: shipments around records 17, 42, 68, 91
+- Quantity mismatches: goods receipts around records 23, 57, 83
+- Invoice price mismatches: invoices around records 12, 31, 64, 78, 96
+- Extra dock-unavailable alerts are included for dashboard demonstrations.
+
+Important IDs:
+- requisition_id links to purchase_orders.requisition_id
+- po_id links purchase_orders, shipments, goods_receipts and invoices
+- shipment_id links shipments and goods_receipts
+- trailer_id links shipments, trailers and dock_assignments
+- invoice_id links invoices and three_way_matching
+- gr_id links goods_receipts and three_way_matching
+
+The data is synthetic and should be treated as prototype/demo data, not real enterprise data.
+
+=== data/ai_decisions.csv ===
+105 data/ai_decisions.csv
+decision_id,decision_type,reference_id,recommendation,reason,confidence,action_taken,timestamp
+DEC00001,Dock Assignment,TR0001,D10,Available + priority + ETA + load compatibility,0.95,Assigned,2026-08-05 10:00
+DEC00002,Dock Assignment,TR0002,D10,Available + priority + ETA + load compatibility,0.98,Assigned,2026-08-09 10:30
+
+=== data/alerts.csv ===
+18 data/alerts.csv
+alert_id,alert_type,reference_id,severity,message,detected_at,recommended_action,status
+ALT-0001,Invoice Anomaly,INV00012,High,"Invoice price mismatch; difference ₹4,200.00",2026-08-08 08:00,Hold payment and review invoice,Open
+ALT-0002,Truck Delay,TR0017,High,TR0017 delayed by 74 minutes,2026-08-05 13:29,Review dock schedule,Open
+
+=== data/dock_assignments.csv ===
+101 data/dock_assignments.csv
+assignment_id,trailer_id,dock_id,assigned_at,scheduled_start,scheduled_end,assignment_reason,status
+DA00001,TR0001,D10,2026-08-05 08:00,2026-08-05 10:00,2026-08-05 10:45,Available + priority + ETA + load compatibility,Assigned
+DA00002,TR0002,D10,2026-08-09 08:00,2026-08-09 10:30,2026-08-09 11:15,Available + priority + ETA + load compatibility,Assigned
+
+=== data/dock_doors.csv ===
+11 data/dock_doors.csv
+dock_id,dock_name,status,supported_load_type,current_trailer,next_available_time,priority_level
+D01,Dock 01,Available,General,,Available,Low
+D02,Dock 02,Occupied,Heavy,,Available,Medium
+
+=== data/goods_receipts.csv ===
+101 data/goods_receipts.csv
+gr_id,po_id,shipment_id,received_date,expected_quantity,received_quantity,damaged_quantity,receiver,status
+GR00001,PO00001,SHP00001,2026-08-05,500,500,0,Warehouse Team,Accepted
+GR00002,PO00002,SHP00002,2026-08-09,200,200,0,Warehouse Team,Accepted
+
+=== data/invoices.csv ===
+101 data/invoices.csv
+invoice_id,po_id,supplier_id,invoice_number,invoice_date,product_id,quantity,unit_price,total_amount,ocr_confidence,status
+INV00001,PO00001,SUP016,INV-00001,2026-08-05,PROD038,500,250.0,125000.0,0.92,Received
+INV00002,PO00002,SUP017,INV-00002,2026-08-09,PROD037,200,3500.0,700000.0,0.99,Received
+
+=== data/products.csv ===
+51 data/products.csv
+product_id,product_name,category,unit,standard_price,weight_kg,load_type,criticality
+PROD001,Temperature Sensor,Mechanical,Piece,18500,16.32,Temperature-Controlled,Normal
+PROD002,Industrial Motor,Packaging,Piece,5200,7.1,General,Normal
+
+=== data/purchase_orders.csv ===
+101 data/purchase_orders.csv
+po_id,requisition_id,supplier_id,product_id,quantity,unit_price,total_amount,order_date,expected_delivery,priority,status
+PO00001,REQ0001,SUP016,PROD038,500,250.0,125000.0,2026-08-01,2026-08-05,High,Confirmed
+PO00002,REQ0002,SUP017,PROD037,200,3500.0,700000.0,2026-08-01,2026-08-09,Medium,Confirmed
+
+=== data/requisitions.csv ===
+101 data/requisitions.csv
+requisition_id,requester,department,product_id,quantity,required_date,destination,priority,status
+REQ0001,User_03,Production,PROD038,500,2026-08-05,Howrah Warehouse,High,Approved
+REQ0002,User_04,Operations,PROD037,200,2026-08-09,Howrah Warehouse,Medium,Approved
+
+=== data/shipments.csv ===
+101 data/shipments.csv
+shipment_id,po_id,tracking_number,trailer_id,origin,destination,departure_time,scheduled_arrival,current_lat,current_lon,eta,status,priority
+SHP00001,PO00001,TRK523389,TR0001,Core Materials Warehouse,Kolkata Warehouse,2026-08-04 15:00,2026-08-05 10:00,22.80702,88.40641,2026-08-05 10:00,In Transit,High
+SHP00002,PO00002,TRK579434,TR0002,Fusion Electronics Warehouse,Kolkata Warehouse,2026-08-08 00:00,2026-08-09 10:30,22.68747,88.40377,2026-08-09 10:30,At Yard,Medium
+
+=== data/suppliers.csv ===
+21 data/suppliers.csv
+supplier_id,supplier_name,category,rating,reliability_score,average_delivery_days,contact_email,status
+SUP001,Alpha Components,Electronics,4.1,98,4,contact1@supplier1.example.com,Active
+SUP002,Beta Electronics,Electronics,4.8,81,12,contact2@supplier2.example.com,Active
+
+=== data/three_way_matching.csv ===
+101 data/three_way_matching.csv
+match_id,invoice_id,po_id,gr_id,po_quantity,received_quantity,invoice_quantity,po_unit_price,invoice_unit_price,quantity_match,price_match,overall_status,action
+MATCH00001,INV00001,PO00001,GR00001,500,500,500,250.0,250.0,Yes,Yes,Matched,Auto Approve
+MATCH00002,INV00002,PO00002,GR00002,200,200,200,3500.0,3500.0,Yes,Yes,Matched,Auto Approve
+
+=== data/trailers.csv ===
+101 data/trailers.csv
+trailer_id,trailer_type,load_type,capacity_kg,current_yard_location,status,priority
+TR0001,Refrigerated,Temperature-Controlled,15000,Y-A04,Waiting,High
+TR0002,Dry Van,Temperature-Controlled,10000,Y-B01,Unloading,Medium
+
+=== data/yard_locations.csv ===
+31 data/yard_locations.csv
+yard_location_id,zone,position,status,trailer_id,updated_at
+Y-A01,A,1,Occupied,TR0001,2026-08-01 08:00
+Y-A02,A,2,Occupied,TR0002,2026-08-01 08:10

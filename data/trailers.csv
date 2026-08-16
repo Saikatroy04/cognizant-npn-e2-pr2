@@ -1,0 +1,101 @@
+trailer_id,trailer_type,load_type,capacity_kg,current_yard_location,status,priority
+TR0001,Refrigerated,Temperature-Controlled,15000,Y-A01,Waiting,High
+TR0002,Dry Van,Temperature-Controlled,10000,Y-A02,Unloading,Medium
+TR0003,Refrigerated,Temperature-Controlled,10000,Y-A03,Loading,High
+TR0004,Flatbed,Heavy,10000,Y-A04,Waiting,High
+TR0005,Dry Van,Fragile,20000,Y-A05,At Gate,Medium
+TR0006,Dry Van,Heavy,25000,Y-A06,Waiting,High
+TR0007,Dry Van,Fragile,15000,Y-A07,Waiting,Low
+TR0008,Dry Van,Temperature-Controlled,10000,Y-A08,Unloading,High
+TR0009,Refrigerated,General,15000,Y-A09,Loading,Medium
+TR0010,Dry Van,Fragile,15000,Y-A10,Unloading,High
+TR0011,Flatbed,Temperature-Controlled,15000,Y-A11,Unloading,Medium
+TR0012,Dry Van,Heavy,25000,Y-A12,Unloading,Low
+TR0013,Dry Van,Fragile,10000,Y-B08,Unloading,High
+TR0014,Dry Van,General,20000,Y-A09,Unloading,Medium
+TR0015,Flatbed,Temperature-Controlled,20000,Y-B04,Unloading,Medium
+TR0016,Refrigerated,Fragile,15000,Y-C04,Unloading,Low
+TR0017,Refrigerated,Fragile,10000,Y-B09,Waiting,High
+TR0018,Flatbed,Fragile,15000,Y-A02,Waiting,Medium
+TR0019,Refrigerated,General,10000,Y-B10,At Gate,Low
+TR0020,Dry Van,Temperature-Controlled,10000,Y-C06,Loading,Medium
+TR0021,Flatbed,Temperature-Controlled,25000,Y-C01,Unloading,Medium
+TR0022,Dry Van,General,20000,Y-B06,Loading,Low
+TR0023,Dry Van,General,10000,Y-C06,Loading,High
+TR0024,Refrigerated,Temperature-Controlled,15000,Y-A04,Loading,High
+TR0025,Dry Van,General,20000,Y-B02,Waiting,Low
+TR0026,Flatbed,Fragile,10000,Y-A09,Waiting,High
+TR0027,Dry Van,General,25000,Y-B10,Unloading,Low
+TR0028,Dry Van,Fragile,15000,Y-B08,Waiting,High
+TR0029,Dry Van,Temperature-Controlled,25000,Y-C02,Waiting,Medium
+TR0030,Refrigerated,General,25000,Y-A09,Unloading,Low
+TR0031,Dry Van,Temperature-Controlled,25000,Y-A02,Unloading,Medium
+TR0032,Refrigerated,Fragile,10000,Y-C07,Unloading,Medium
+TR0033,Refrigerated,General,25000,Y-B06,Waiting,High
+TR0034,Dry Van,Temperature-Controlled,25000,Y-A08,Waiting,Medium
+TR0035,Dry Van,Temperature-Controlled,20000,Y-C08,Unloading,Medium
+TR0036,Flatbed,Temperature-Controlled,25000,Y-B08,Loading,Medium
+TR0037,Dry Van,Fragile,15000,Y-B06,Loading,Medium
+TR0038,Refrigerated,General,10000,Y-B03,Loading,High
+TR0039,Refrigerated,Temperature-Controlled,10000,Y-C05,Unloading,High
+TR0040,Dry Van,Heavy,25000,Y-A06,At Gate,Low
+TR0041,Flatbed,Heavy,20000,Y-C01,Unloading,Medium
+TR0042,Refrigerated,Temperature-Controlled,10000,Y-A01,Unloading,Medium
+TR0043,Dry Van,Temperature-Controlled,20000,Y-B05,At Gate,Medium
+TR0044,Refrigerated,Fragile,20000,Y-A10,Waiting,Low
+TR0045,Flatbed,Temperature-Controlled,20000,Y-B09,Waiting,High
+TR0046,Flatbed,General,10000,Y-A10,Waiting,Low
+TR0047,Flatbed,Heavy,15000,Y-C03,Unloading,High
+TR0048,Refrigerated,General,10000,Y-A07,Waiting,High
+TR0049,Refrigerated,Temperature-Controlled,20000,Y-A05,At Gate,High
+TR0050,Flatbed,Temperature-Controlled,25000,Y-A03,Loading,Low
+TR0051,Dry Van,Temperature-Controlled,25000,Y-C02,Unloading,High
+TR0052,Refrigerated,Fragile,25000,Y-B07,Waiting,Medium
+TR0053,Refrigerated,General,20000,Y-B01,Loading,Low
+TR0054,Flatbed,Fragile,20000,Y-A04,Unloading,Medium
+TR0055,Refrigerated,Heavy,15000,Y-A09,Unloading,High
+TR0056,Dry Van,Temperature-Controlled,15000,Y-A01,Unloading,High
+TR0057,Dry Van,General,15000,Y-A03,At Gate,High
+TR0058,Flatbed,Heavy,20000,Y-B09,Waiting,High
+TR0059,Refrigerated,Temperature-Controlled,15000,Y-B03,Loading,Low
+TR0060,Flatbed,Fragile,15000,Y-A01,Unloading,Low
+TR0061,Dry Van,Fragile,15000,Y-C01,Loading,Medium
+TR0062,Refrigerated,Fragile,25000,Y-C05,Loading,Low
+TR0063,Dry Van,General,10000,Y-A10,Unloading,Medium
+TR0064,Refrigerated,Temperature-Controlled,15000,Y-A03,Waiting,High
+TR0065,Refrigerated,General,25000,Y-A04,Loading,Medium
+TR0066,Flatbed,General,20000,Y-B08,At Gate,Low
+TR0067,Dry Van,Temperature-Controlled,10000,Y-C08,Loading,Medium
+TR0068,Flatbed,Heavy,25000,Y-B10,At Gate,High
+TR0069,Flatbed,General,10000,Y-C08,Unloading,High
+TR0070,Flatbed,General,10000,Y-B05,Unloading,Low
+TR0071,Dry Van,Fragile,25000,Y-C07,Unloading,Low
+TR0072,Flatbed,Temperature-Controlled,25000,Y-A08,Waiting,Low
+TR0073,Refrigerated,General,10000,Y-A06,Loading,High
+TR0074,Refrigerated,Temperature-Controlled,10000,Y-A08,Loading,Medium
+TR0075,Dry Van,General,15000,Y-A07,Waiting,High
+TR0076,Flatbed,General,25000,Y-B02,Unloading,Low
+TR0077,Dry Van,General,10000,Y-B01,Loading,High
+TR0078,Refrigerated,Fragile,25000,Y-C02,Loading,Medium
+TR0079,Refrigerated,Fragile,25000,Y-A05,Loading,Medium
+TR0080,Flatbed,Fragile,20000,Y-A04,Unloading,Medium
+TR0081,Refrigerated,Fragile,10000,Y-B02,Loading,Low
+TR0082,Flatbed,General,15000,Y-B02,Waiting,Medium
+TR0083,Dry Van,General,15000,Y-B02,At Gate,Medium
+TR0084,Dry Van,Heavy,20000,Y-A09,Waiting,Medium
+TR0085,Refrigerated,Temperature-Controlled,20000,Y-C05,At Gate,High
+TR0086,Flatbed,Fragile,15000,Y-B06,Loading,High
+TR0087,Dry Van,General,10000,Y-A05,Loading,Low
+TR0088,Refrigerated,Heavy,25000,Y-B03,At Gate,High
+TR0089,Flatbed,Temperature-Controlled,20000,Y-C05,Waiting,High
+TR0090,Refrigerated,Fragile,20000,Y-B01,At Gate,Low
+TR0091,Dry Van,Heavy,25000,Y-B01,Loading,Low
+TR0092,Dry Van,Temperature-Controlled,25000,Y-C01,Loading,Medium
+TR0093,Flatbed,Temperature-Controlled,20000,Y-A01,Unloading,High
+TR0094,Flatbed,Temperature-Controlled,15000,Y-B03,Unloading,High
+TR0095,Refrigerated,General,25000,Y-A07,Loading,Medium
+TR0096,Refrigerated,General,10000,Y-A10,Loading,Low
+TR0097,Dry Van,General,10000,Y-C01,Waiting,High
+TR0098,Dry Van,General,15000,Y-A02,Waiting,High
+TR0099,Refrigerated,Heavy,25000,Y-B05,At Gate,Medium
+TR0100,Refrigerated,Heavy,25000,Y-B10,Unloading,High

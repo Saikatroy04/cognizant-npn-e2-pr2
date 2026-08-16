@@ -1,0 +1,24 @@
+supplier_id,supplier_name,category,rating,reliability_score,average_delivery_days,contact_email,status
+SUP001,Alpha Components,Electronics,4.1,98,4,contact1@supplier1.example.com,Active
+SUP002,Beta Electronics,Electronics,4.8,81,12,contact2@supplier2.example.com,Active
+SUP003,Gamma Industrial,Metal,4.6,87,11,contact3@supplier3.example.com,Active
+SUP004,Delta Supplies,Mechanical,4.4,86,12,contact4@supplier4.example.com,Active
+SUP005,Omega Tech,Mechanical,3.9,86,7,contact5@supplier5.example.com,Active
+SUP006,Prime Materials,Mechanical,3.9,90,4,contact6@supplier6.example.com,Active
+SUP007,Nova Systems,Electronics,3.8,83,6,contact7@supplier7.example.com,Active
+SUP008,Vertex Manufacturing,Electrical,4.7,94,9,contact8@supplier8.example.com,Active
+SUP009,Apex Components,Electronics,4.4,91,10,contact9@supplier9.example.com,Active
+SUP010,Zenith Industrial,Electrical,4.5,96,5,contact10@supplier10.example.com,Active
+SUP011,Metro Parts,Packaging,3.7,74,3,contact11@supplier11.example.com,Active
+SUP012,Global Tech Supplies,Electronics,4.9,76,6,contact12@supplier12.example.com,Active
+SUP013,Rapid Components,Electronics,4.7,90,4,contact13@supplier13.example.com,Active
+SUP014,Eastern Engineering,Electronics,4.0,78,10,contact14@supplier14.example.com,Active
+SUP015,BlueStar Industries,Mechanical,3.9,92,6,contact15@supplier15.example.com,Active
+SUP016,Core Materials,Mechanical,3.9,80,4,contact16@supplier16.example.com,Active
+SUP017,Fusion Electronics,Electrical,4.1,78,8,contact17@supplier17.example.com,Active
+SUP018,United Industrial,Electrical,4.3,89,8,contact18@supplier18.example.com,Active
+SUP019,Pioneer Parts,Electronics,4.2,75,12,contact19@supplier19.example.com,Active
+SUP020,Evergreen Supplies,Electrical,4.0,96,6,contact20@supplier20.example.com,Active
+SUP021,NavTrack Mobility,Telematics,4.7,95,5,sales@navtrack.example.com,Active
+SUP022,FleetPulse Systems,Telematics,4.5,92,6,contact@fleetpulse.example.com,Active
+SUP023,GeoAxis Technologies,Telematics,4.3,90,7,ops@geoaxis.example.com,Active
